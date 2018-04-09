@@ -14,3 +14,5 @@
 [25-Jul-2017 10:47:57 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/mauibeats/mauitropicalmassage.com/wp-content/themes/dandelion/index.php on line 5
 [25-Jul-2017 11:51:27 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/mauibeats/mauitropicalmassage.com/wp-content/themes/dandelion/index.php on line 5
 [14-Oct-2017 07:10:56 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/mauibeats/mauitropicalmassage.com/wp-content/themes/dandelion/index.php on line 5
+[14-Jan-2018 05:14:13 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/mauibeats/mauitropicalmassage.com/wp-content/themes/dandelion/index.php on line 5
+[07-Apr-2018 07:34:19 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home3/mauibeats/mauitropicalmassage.com/wp-content/themes/dandelion/index.php on line 5
