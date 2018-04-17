@@ -1,4 +1,4 @@
-CREATE TABLE `wp_wfStatus` (  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  `ctime` double(17,6) unsigned NOT NULL,  `level` tinyint(3) unsigned NOT NULL,  `type` char(5) NOT NULL,  `msg` varchar(1000) NOT NULL,  PRIMARY KEY (`id`),  KEY `k1` (`ctime`),  KEY `k2` (`type`)) ENGINE=MyISAM AUTO_INCREMENT=323025 DEFAULT CHARSET=utf8;
+CREATE TABLE `wp_wfStatus` (  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  `ctime` double(17,6) unsigned NOT NULL,  `level` tinyint(3) unsigned NOT NULL,  `type` char(5) NOT NULL,  `msg` varchar(1000) NOT NULL,  PRIMARY KEY (`id`),  KEY `k1` (`ctime`),  KEY `k2` (`type`)) ENGINE=MyISAM AUTO_INCREMENT=323033 DEFAULT CHARSET=utf8;
 /*!40000 ALTER TABLE `wp_wfStatus` DISABLE KEYS */;
 INSERT INTO `wp_wfStatus` VALUES('322485', '1523295212.564960', '2', 'info', 'Scanned contents of 930 additional files at 6.91 per second');
 INSERT INTO `wp_wfStatus` VALUES('322484', '1523295211.543066', '2', 'info', 'Scanned contents of 919 additional files at 6.88 per second');
@@ -581,6 +581,14 @@ INSERT INTO `wp_wfStatus` VALUES('323021', '1523811971.817117', '1', 'info', '--
 INSERT INTO `wp_wfStatus` VALUES('323022', '1523811971.818197', '2', 'info', 'Wordfence used 256 KB of memory for scan. Server peak memory usage was: 49.25 MB');
 INSERT INTO `wp_wfStatus` VALUES('323023', '1523811971.818611', '1', 'info', 'Quick Scan Complete. Scanned in less than 1 second.');
 INSERT INTO `wp_wfStatus` VALUES('323024', '1523811971.818986', '10', 'info', 'SUM_FINAL:Scan complete. Congratulations, no new problems found.');
+INSERT INTO `wp_wfStatus` VALUES('323025', '1523909007.627756', '10', 'info', 'SUM_PREP:Preparing a new scan.');
+INSERT INTO `wp_wfStatus` VALUES('323026', '1523909007.634696', '1', 'info', 'Initiating quick scan');
+INSERT INTO `wp_wfStatus` VALUES('323027', '1523909007.651708', '10', 'info', 'SUM_START:Scanning for old themes, plugins and core files');
+INSERT INTO `wp_wfStatus` VALUES('323028', '1523909007.672798', '10', 'info', 'SUM_ENDOK:Scanning for old themes, plugins and core files');
+INSERT INTO `wp_wfStatus` VALUES('323029', '1523909007.677389', '1', 'info', '-------------------');
+INSERT INTO `wp_wfStatus` VALUES('323030', '1523909007.685140', '2', 'info', 'Wordfence used 256 KB of memory for scan. Server peak memory usage was: 49.25 MB');
+INSERT INTO `wp_wfStatus` VALUES('323031', '1523909007.686002', '1', 'info', 'Quick Scan Complete. Scanned in less than 1 second.');
+INSERT INTO `wp_wfStatus` VALUES('323032', '1523909007.686542', '10', 'info', 'SUM_FINAL:Scan complete. Congratulations, no new problems found.');
 INSERT INTO `wp_wfStatus` VALUES('322603', '1523295405.895702', '10', 'info', 'SUM_ENDOK:Scanning file contents for infections and vulnerabilities');
 INSERT INTO `wp_wfStatus` VALUES('322604', '1523295405.902538', '10', 'info', 'SUM_ENDOK:Scanning file contents for URLs on a domain blacklist');
 INSERT INTO `wp_wfStatus` VALUES('322448', '1523295166.066748', '2', 'info', 'Scanned contents of 562 additional files at 6.38 per second');
