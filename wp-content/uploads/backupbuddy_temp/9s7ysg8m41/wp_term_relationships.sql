@@ -1,0 +1,10 @@
+CREATE TABLE `wp_term_relationships` (  `object_id` bigint(20) unsigned NOT NULL DEFAULT '0',  `term_taxonomy_id` bigint(20) unsigned NOT NULL DEFAULT '0',  `term_order` int(11) NOT NULL DEFAULT '0',  PRIMARY KEY (`object_id`,`term_taxonomy_id`),  KEY `term_taxonomy_id` (`term_taxonomy_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+/*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
+INSERT INTO `wp_term_relationships` VALUES('18', '2', '0');
+INSERT INTO `wp_term_relationships` VALUES('12', '2', '0');
+INSERT INTO `wp_term_relationships` VALUES('26', '1', '0');
+INSERT INTO `wp_term_relationships` VALUES('178', '2', '0');
+INSERT INTO `wp_term_relationships` VALUES('180', '2', '0');
+INSERT INTO `wp_term_relationships` VALUES('179', '2', '0');
+INSERT INTO `wp_term_relationships` VALUES('183', '2', '0');
+/*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
