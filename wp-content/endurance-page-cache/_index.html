@@ -58,8 +58,34 @@ img.emoji {
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mauitropicalmassage.com/wp-includes/wlwmanifest.xml" /> 
 
 
-<!-- Bad Behavior 2.2.20 run time: 3.893 ms -->
+<!-- Bad Behavior 2.2.20 run time: 5.217 ms -->
 <script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1524668082 64.246.178.34';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		<script type="text/javascript">
 (function(url){
 	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
 	var addEvent = function(evt, handler) {
@@ -90,7 +116,7 @@ img.emoji {
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//mauitropicalmassage.com/?wordfence_lh=1&hid=2DDEA4524B10E7A129037E491464ACDE');
+})('//mauitropicalmassage.com/?wordfence_lh=1&hid=6AD06FD1523932575CBDAC4576044292');
 </script>
 <!-- Mobile Devices Viewport Resset-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
