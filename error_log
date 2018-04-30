@@ -75,3 +75,4 @@ LIMIT 1504024788 made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply
 [15-Apr-2018 17:55:28 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 88080385 bytes) in /home3/mauibeats/mauitropicalmassage.com/wp-content/plugins/backupbuddy/classes/core.php on line 3350
 [22-Apr-2018 16:03:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/mauibeats/mauitropicalmassage.com/wp-content/plugins/backupbuddy/classes/core.php on line 3280
 [23-Apr-2018 16:43:32 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 88080385 bytes) in /home3/mauibeats/mauitropicalmassage.com/wp-content/plugins/backupbuddy/classes/core.php on line 3350
+[29-Apr-2018 17:48:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/mauibeats/mauitropicalmassage.com/wp-content/plugins/backupbuddy/classes/core.php on line 3280
